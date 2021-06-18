@@ -1,11 +1,6 @@
 import Axios from "axios";
 
-const USER_API_BASE_URL = "http://65.0.128.85:8080/api/v1.0/tweets/";
-
-// const HEADERS = {
-//     'Content-Type': 'application/json',
-//     'Authorization': 'Bearer '
-//   }
+const USER_API_BASE_URL = "http://15.206.204.191:8080/api/v1.0/tweets/";
 
 class TweetService {
   getAllTweets(username) {

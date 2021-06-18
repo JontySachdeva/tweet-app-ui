@@ -1,16 +1,11 @@
 import Axios from "axios";
 
-const USER_API_BASE_URL = "http://65.0.128.85:8080/api/v1.0/tweets/";
+const USER_API_BASE_URL = "http://15.206.204.191:8080/api/v1.0/tweets/";
 const LOGIN = "login";
 const SIGNUP = "register";
 const VALIDATE = "validateOtp";
 const getAllUser = "users/all";
 const FORGOT = "/forgot";
-
-// const HEADERS = {
-//     'Content-Type': 'application/json',
-//     'Authorization': 'Bearer '
-//   }
 
 class UserService {
   login(email, password) {
