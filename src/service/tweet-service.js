@@ -1,6 +1,6 @@
 import Axios from "axios";
 
-const USER_API_BASE_URL = "http://15.206.204.191:8080/api/v1.0/tweets/";
+const USER_API_BASE_URL = "http://tweet-balancer-1914636209.ap-south-1.elb.amazonaws.com/api/v1.0/tweets/";
 
 class TweetService {
   getAllTweets(username) {
